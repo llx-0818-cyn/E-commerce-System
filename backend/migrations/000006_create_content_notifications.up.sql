@@ -1,0 +1,20 @@
+CREATE TABLE notifications_v2 (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    event_id VARCHAR(64) NOT NULL,
+    recipient_id BIGINT UNSIGNED NOT NULL,
+    sender_id BIGINT UNSIGNED NOT NULL,
+    type VARCHAR(32) NOT NULL,
+    target_type VARCHAR(32) NOT NULL,
+    target_id BIGINT UNSIGNED NOT NULL,
+    content VARCHAR(255) NOT NULL,
+    is_read BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_notifications_recipient_event (recipient_id, event_id),
+    KEY idx_notifications_recipient_page (recipient_id, created_at DESC, id DESC),
+    KEY idx_notifications_unread (recipient_id, is_read, created_at DESC, id DESC),
+    KEY idx_notifications_target (target_type, target_id, created_at DESC, id DESC),
+    CONSTRAINT chk_notifications_type CHECK (type IN ('like', 'comment', 'mention', 'follow')),
+    CONSTRAINT chk_notifications_target_type CHECK (target_type IN ('post', 'account', 'video')),
+    CONSTRAINT chk_notifications_not_self CHECK (recipient_id <> sender_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

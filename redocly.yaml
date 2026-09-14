@@ -1,0 +1,8 @@
+extends:
+  - recommended
+
+rules:
+  # 仓库当前没有许可证文件；明确标为 UNLICENSED，不伪造 SPDX identifier 或 URL。
+  info-license-strict: off
+  # /healthz 只有正常响应；为了满足通用规则而虚构 4xx 会让契约失真。
+  operation-4xx-response: off

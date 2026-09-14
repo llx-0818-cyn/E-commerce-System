@@ -1,0 +1,23 @@
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: var(--space-6); align-items: start; }
+.article { min-width: 0; }
+.gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3px; overflow: hidden; border-radius: var(--radius-md); background: var(--color-surface-strong); }
+.gallery.single { display: block; }
+.gallery img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.gallery.single img { aspect-ratio: 16 / 10; }
+.meta { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); margin-top: var(--space-5); }
+.author { display: flex; align-items: center; gap: var(--space-2); }
+.copy { margin: var(--space-4) 0; white-space: pre-wrap; }
+.tags { display: flex; flex-wrap: wrap; gap: var(--space-2); color: var(--color-link); font-size: var(--font-sm); }
+.actions { display: flex; flex-wrap: wrap; gap: var(--space-2); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); padding: var(--space-4) 0; }
+.comments { margin-top: var(--space-6); }
+.commentForm { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-2); }
+.commentList { display: grid; gap: var(--space-3); margin-top: var(--space-4); }
+.comment { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-3); border-bottom: 1px solid var(--color-border); padding-bottom: var(--space-3); }
+.comment p { margin: 0; }
+.sidebar { position: sticky; top: 78px; display: grid; gap: var(--space-3); }
+.product { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: var(--space-3); }
+.product img { width: 64px; height: 64px; border-radius: var(--radius-sm); object-fit: cover; }
+.productName { margin: 0; font-size: var(--font-sm); }
+.price { margin-top: var(--space-1); color: var(--color-danger); font-weight: 700; }
+@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } .sidebar { position: static; } }
+@media (max-width: 540px) { .gallery { grid-template-columns: 1fr; } .commentForm { grid-template-columns: 1fr; } }

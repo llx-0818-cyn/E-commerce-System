@@ -1,0 +1,7 @@
+.list { display: grid; gap: var(--space-3); }
+.item { display: grid; grid-template-columns: minmax(0, 1fr) 120px auto; align-items: center; gap: var(--space-4); }
+.name { font-weight: 700; }
+.quantity { display: grid; grid-template-columns: 34px 52px 34px; gap: var(--space-1); }
+.quantity input { min-height: 34px; padding: 5px; text-align: center; }
+.footer { display: flex; justify-content: flex-end; margin-top: var(--space-5); }
+@media (max-width: 620px) { .item { grid-template-columns: 1fr auto; } .quantity { grid-row: 2; } }

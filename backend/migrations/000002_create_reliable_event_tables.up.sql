@@ -1,0 +1,61 @@
+CREATE TABLE outbox_events (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    event_id VARCHAR(64) NOT NULL,
+    aggregate_type VARCHAR(64) NOT NULL,
+    aggregate_id VARCHAR(128) NOT NULL,
+    event_type VARCHAR(128) NOT NULL,
+    payload_json JSON NOT NULL,
+    status VARCHAR(16) NOT NULL DEFAULT 'pending',
+    attempts INT UNSIGNED NOT NULL DEFAULT 0,
+    next_attempt_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    last_error TEXT NULL,
+    claimed_by VARCHAR(128) NULL,
+    claimed_until DATETIME(6) NULL,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    published_at DATETIME(6) NULL,
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_outbox_event_id (event_id),
+    KEY idx_outbox_poll (status, next_attempt_at, id),
+    KEY idx_outbox_claim (status, claimed_until, id),
+    KEY idx_outbox_retention (status, published_at, id),
+    KEY idx_outbox_aggregate (aggregate_type, aggregate_id, id),
+    KEY idx_outbox_event_type (event_type, created_at, id),
+    CONSTRAINT chk_outbox_status CHECK (status IN ('pending', 'publishing', 'published', 'failed'))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE processed_events (
+    consumer_name VARCHAR(128) NOT NULL,
+    event_id VARCHAR(64) NOT NULL,
+    event_type VARCHAR(128) NOT NULL,
+    aggregate_type VARCHAR(64) NULL,
+    aggregate_id VARCHAR(128) NULL,
+    processed_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (consumer_name, event_id),
+    KEY idx_processed_event_id (event_id, consumer_name),
+    KEY idx_processed_retention (processed_at, consumer_name, event_id),
+    KEY idx_processed_aggregate (aggregate_type, aggregate_id, processed_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE failed_events (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    consumer_name VARCHAR(128) NOT NULL,
+    event_id VARCHAR(64) NOT NULL,
+    event_type VARCHAR(128) NOT NULL,
+    payload_json JSON NOT NULL,
+    failure_stage VARCHAR(32) NOT NULL,
+    attempts INT UNSIGNED NOT NULL DEFAULT 1,
+    first_failed_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    last_failed_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    last_error TEXT NOT NULL,
+    resolved_at DATETIME(6) NULL,
+    resolution_note TEXT NULL,
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_failed_consumer_event (consumer_name, event_id),
+    KEY idx_failed_event_id (event_id, consumer_name),
+    KEY idx_failed_unresolved (resolved_at, last_failed_at, id),
+    KEY idx_failed_consumer (consumer_name, last_failed_at, id),
+    KEY idx_failed_event_type (event_type, last_failed_at, id),
+    CONSTRAINT chk_failed_stage CHECK (failure_stage IN ('deserialize', 'handle', 'publish', 'compensate', 'reconcile')),
+    CONSTRAINT chk_failed_attempts CHECK (attempts > 0)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

@@ -1,0 +1,92 @@
+CREATE TABLE payment_records (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    payment_no VARCHAR(40) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+    order_id BIGINT UNSIGNED NOT NULL,
+    buyer_id BIGINT UNSIGNED NOT NULL,
+    provider VARCHAR(16) NOT NULL DEFAULT 'mock',
+    status VARCHAR(16) NOT NULL DEFAULT 'pending',
+    amount_cent BIGINT NOT NULL,
+    session_token VARCHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+    cashier_url VARCHAR(1024) NOT NULL,
+    provider_trade_no VARCHAR(64) CHARACTER SET ascii COLLATE ascii_bin NULL,
+    failure_code VARCHAR(64) NULL,
+    failure_reason VARCHAR(500) NULL,
+    succeeded_at DATETIME(6) NULL,
+    failed_at DATETIME(6) NULL,
+    closed_at DATETIME(6) NULL,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_payment_records_payment_no (payment_no),
+    UNIQUE KEY uq_payment_records_order_provider (order_id, provider),
+    UNIQUE KEY uq_payment_records_session_token (session_token),
+    UNIQUE KEY uq_payment_records_provider_trade (provider, provider_trade_no),
+    KEY idx_payment_records_buyer_page (buyer_id, created_at DESC, id DESC),
+    KEY idx_payment_records_status_page (status, created_at, id),
+    CONSTRAINT fk_payment_records_order FOREIGN KEY (order_id) REFERENCES orders (id),
+    CONSTRAINT chk_payment_records_payment_no CHECK (CHAR_LENGTH(TRIM(payment_no)) BETWEEN 1 AND 40),
+    CONSTRAINT chk_payment_records_provider CHECK (provider = 'mock'),
+    CONSTRAINT chk_payment_records_status CHECK (status IN ('pending', 'succeeded', 'failed', 'closed')),
+    CONSTRAINT chk_payment_records_amount CHECK (amount_cent > 0),
+    CONSTRAINT chk_payment_records_session CHECK (CHAR_LENGTH(session_token) = 64),
+    CONSTRAINT chk_payment_records_cashier CHECK (CHAR_LENGTH(TRIM(cashier_url)) BETWEEN 1 AND 1024)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE payment_callback_events (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    callback_event_id VARCHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+    payment_id BIGINT UNSIGNED NOT NULL,
+    provider VARCHAR(16) NOT NULL DEFAULT 'mock',
+    provider_trade_no VARCHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+    result VARCHAR(16) NOT NULL,
+    amount_cent BIGINT NOT NULL,
+    payload_json JSON NOT NULL,
+    process_status VARCHAR(16) NOT NULL DEFAULT 'received',
+    failure_reason VARCHAR(500) NULL,
+    received_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    processed_at DATETIME(6) NULL,
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_payment_callback_event_id (callback_event_id),
+    KEY idx_payment_callbacks_payment_page (payment_id, received_at, id),
+    KEY idx_payment_callbacks_trade_page (provider, provider_trade_no, received_at, id),
+    CONSTRAINT fk_payment_callbacks_payment FOREIGN KEY (payment_id) REFERENCES payment_records (id),
+    CONSTRAINT chk_payment_callbacks_event CHECK (CHAR_LENGTH(TRIM(callback_event_id)) BETWEEN 1 AND 64),
+    CONSTRAINT chk_payment_callbacks_provider CHECK (provider = 'mock'),
+    CONSTRAINT chk_payment_callbacks_result CHECK (result IN ('succeeded', 'failed')),
+    CONSTRAINT chk_payment_callbacks_amount CHECK (amount_cent > 0),
+    CONSTRAINT chk_payment_callbacks_payload CHECK (JSON_TYPE(payload_json) = 'OBJECT'),
+    CONSTRAINT chk_payment_callbacks_process_status CHECK (
+        process_status IN ('received', 'applied', 'duplicate', 'rejected')
+    )
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE payment_anomalies (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    payment_id BIGINT UNSIGNED NULL,
+    order_id BIGINT UNSIGNED NULL,
+    payment_no VARCHAR(40) CHARACTER SET ascii COLLATE ascii_bin NOT NULL DEFAULT '',
+    callback_event_id VARCHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL DEFAULT '',
+    anomaly_type VARCHAR(32) NOT NULL,
+    expected_amount_cent BIGINT NULL,
+    actual_amount_cent BIGINT NULL,
+    detail VARCHAR(1000) NOT NULL,
+    payload_json JSON NOT NULL,
+    resolved_at DATETIME(6) NULL,
+    resolution VARCHAR(1000) NULL,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_payment_anomalies_callback_type (callback_event_id, anomaly_type),
+    KEY idx_payment_anomalies_unresolved (resolved_at, created_at, id),
+    KEY idx_payment_anomalies_payment_page (payment_id, created_at, id),
+    KEY idx_payment_anomalies_order_page (order_id, created_at, id),
+    CONSTRAINT fk_payment_anomalies_payment FOREIGN KEY (payment_id) REFERENCES payment_records (id),
+    CONSTRAINT fk_payment_anomalies_order FOREIGN KEY (order_id) REFERENCES orders (id),
+    CONSTRAINT chk_payment_anomalies_type CHECK (
+        anomaly_type IN (
+            'payment_not_found', 'signature_invalid', 'amount_mismatch',
+            'provider_trade_conflict', 'order_canceled', 'order_state_conflict'
+        )
+    ),
+    CONSTRAINT chk_payment_anomalies_detail CHECK (CHAR_LENGTH(TRIM(detail)) BETWEEN 1 AND 1000),
+    CONSTRAINT chk_payment_anomalies_payload CHECK (JSON_TYPE(payload_json) = 'OBJECT')
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

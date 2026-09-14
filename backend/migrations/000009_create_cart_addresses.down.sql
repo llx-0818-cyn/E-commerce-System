@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS addresses;
+DROP TABLE IF EXISTS cart_items;

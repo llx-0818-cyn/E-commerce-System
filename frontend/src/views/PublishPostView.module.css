@@ -1,0 +1,11 @@
+.form { display: grid; gap: var(--space-5); }
+.section { display: grid; gap: var(--space-2); }
+.images { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-3); }
+.image { position: relative; overflow: hidden; min-height: 130px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface-subtle); }
+.image img { width: 100%; height: 130px; object-fit: cover; }
+.imageActions { position: absolute; top: var(--space-2); right: var(--space-2); display: flex; gap: var(--space-1); }
+.products { display: grid; gap: var(--space-2); }
+.product { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: var(--space-3); border-bottom: 1px solid var(--color-border); padding: var(--space-2) 0; }
+.product input { width: 18px; min-height: 18px; }
+.footer { display: flex; justify-content: flex-end; gap: var(--space-2); }
+@media (max-width: 680px) { .images { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

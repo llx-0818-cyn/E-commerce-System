@@ -1,0 +1,11 @@
+.button { display: inline-flex; min-height: 38px; align-items: center; justify-content: center; gap: 8px; border-radius: var(--radius-md); padding: 8px 13px; font-size: var(--font-sm); font-weight: 650; }
+.primary { border-color: var(--color-brand); background: var(--color-brand); color: #fff; }
+.primary:hover { background: var(--color-brand-hover); }
+.secondary { border-color: var(--color-border-strong); background: var(--color-surface); color: var(--color-text); }
+.ghost { border-color: transparent; background: transparent; color: var(--color-text-muted); }
+.danger { border-color: var(--color-danger); background: var(--color-danger-soft); color: var(--color-danger); }
+.small { min-height: 32px; padding: 5px 9px; font-size: var(--font-xs); }
+.iconOnly { width: 38px; padding: 0; }
+.iconOnly.small { width: 32px; }
+.spinner { animation: spin 800ms linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }

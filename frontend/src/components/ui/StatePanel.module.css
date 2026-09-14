@@ -1,0 +1,8 @@
+.panel { display: grid; min-height: 180px; place-items: center; border: 1px dashed var(--color-border-strong); border-radius: var(--radius-md); background: var(--color-surface); padding: var(--space-6); text-align: center; }
+.icon { color: var(--color-text-muted); }
+.danger { color: var(--color-danger); }
+.title { margin: var(--space-3) 0 var(--space-1); font-size: var(--font-md); font-weight: 700; }
+.text { margin: 0 0 var(--space-4); color: var(--color-text-muted); font-size: var(--font-sm); }
+.skeleton { overflow: hidden; position: relative; border-radius: var(--radius-sm); background: var(--color-surface-strong); }
+.skeleton::after { position: absolute; inset: 0; background: linear-gradient(90deg, transparent, rgba(255,255,255,.75), transparent); content: ''; transform: translateX(-100%); animation: shimmer 1.4s ease-in-out infinite; }
+@keyframes shimmer { to { transform: translateX(100%); } }
