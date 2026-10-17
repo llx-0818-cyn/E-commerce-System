@@ -26,6 +26,7 @@ it('selects the first purchasable SKU, adds it to cart and links related content
   mocks.add.mockResolvedValue({ id: 1 })
   render(<MemoryRouter initialEntries={['/products/6']}><Routes><Route path="/products/:id" element={<ProductView />} /></Routes></MemoryRouter>)
   expect(await screen.findByText('多规格杯')).toBeTruthy()
+  expect(screen.getByText('79.00')).toBeTruthy()
   expect(screen.getByRole('button', { name: /颜色: 灰/ }).hasAttribute('disabled')).toBe(true)
   fireEvent.click(screen.getByRole('button', { name: '加入购物车' }))
   await waitFor(() => expect(mocks.add).toHaveBeenCalledWith({ sku_id: 2, quantity: 1, mode: 'merge' }))

@@ -67,6 +67,12 @@ VALUES (?, ?, '批量富化正文', 'published', ?, ?, ?, ?, ?)`,
 		seedAssemblerImages(t, database, uint64(postID), authorID)
 	}
 	const viewerID = uint64(4)
+	if _, err := database.Exec("INSERT INTO tags (name) VALUES ('杯壶日常'), ('桌面好物')"); err != nil {
+		t.Fatalf("seed feed tags: %v", err)
+	}
+	if _, err := database.Exec("INSERT INTO post_tags (post_id, tag_id) SELECT ?, id FROM tags WHERE name IN ('杯壶日常', '桌面好物')", seededIDs[4]); err != nil {
+		t.Fatalf("seed feed post tags: %v", err)
+	}
 	if _, err := database.Exec("INSERT INTO post_likes (post_id, account_id) VALUES (?, ?), (?, ?)", seededIDs[4], viewerID, seededIDs[1], viewerID); err != nil {
 		t.Fatalf("seed feed likes: %v", err)
 	}
@@ -106,14 +112,20 @@ VALUES (?, ?, '批量富化正文', 'published', ?, ?, ?, ?, ?)`,
 	if err != nil {
 		t.Fatalf("Assemble(authenticated) error = %v", err)
 	}
-	if got := counter.Count(); got != 5 {
-		t.Fatalf("five-item feed query count = %d, want 5 (base + 4 fixed batches)", got)
+	if got := counter.Count(); got != 6 {
+		t.Fatalf("five-item feed query count = %d, want 6 (base + 5 fixed batches)", got)
 	}
 	wantOrder := reverseIDs(seededIDs)
 	if got := contentFeedItemIDs(items); !reflect.DeepEqual(got, wantOrder) {
 		t.Fatalf("assembled order = %v, want %v", got, wantOrder)
 	}
 	for _, item := range items {
+		if item.ID == seededIDs[4] && (len(item.Tags) != 2 || item.Tags[0].Name != "杯壶日常" || item.Tags[1].Name != "桌面好物") {
+			t.Fatalf("post %d missing ordered feed tags: %#v", item.ID, item.Tags)
+		}
+		if item.ID != seededIDs[4] && (item.Tags == nil || len(item.Tags) != 0) {
+			t.Fatalf("post %d should have an empty tag array: %#v", item.ID, item.Tags)
+		}
 		if item.Author.ID == 0 || item.Author.Username == "" {
 			t.Fatalf("post %d missing author summary: %#v", item.ID, item.Author)
 		}
@@ -133,8 +145,8 @@ VALUES (?, ?, '批量富化正文', 'published', ?, ?, ?, ?, ?)`,
 	if _, err := assembler.Assemble(ctx, onePost, viewerID); err != nil {
 		t.Fatalf("Assemble(one authenticated) error = %v", err)
 	}
-	if got := counter.Count(); got != 5 {
-		t.Fatalf("one-item feed query count = %d, want same fixed 5 as five-item page", got)
+	if got := counter.Count(); got != 6 {
+		t.Fatalf("one-item feed query count = %d, want same fixed 6 as five-item page", got)
 	}
 
 	counter.Reset()
@@ -146,8 +158,8 @@ VALUES (?, ?, '批量富化正文', 'published', ?, ?, ?, ?, ?)`,
 	if err != nil {
 		t.Fatalf("Assemble(anonymous) error = %v", err)
 	}
-	if got := counter.Count(); got != 3 {
-		t.Fatalf("anonymous feed query count = %d, want 3 (base + images + authors)", got)
+	if got := counter.Count(); got != 4 {
+		t.Fatalf("anonymous feed query count = %d, want 4 (base + images + tags + authors)", got)
 	}
 	for _, item := range anonymousItems {
 		if item.IsLiked || item.IsFavorited {

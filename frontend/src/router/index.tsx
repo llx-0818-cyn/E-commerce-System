@@ -19,6 +19,7 @@ import RegisterView from '../views/RegisterView'
 import SettingsView from '../views/SettingsView'
 import ShopView from '../views/ShopView'
 import SellerView from '../views/SellerView'
+import SearchView from '../views/SearchView'
 import UserProfileView from '../views/UserProfileView'
 import WorkspaceView from '../views/WorkspaceView'
 
@@ -34,7 +35,7 @@ export default function AppRouter() {
     <Routes>
       <Route path="/" element={<HomeView />} />
       <Route path="/hot" element={<HotView />} />
-      <Route path="/search" element={<WorkspaceView title="搜索" />} />
+      <Route path="/search" element={<SearchView />} />
       <Route path="/posts/new" element={<ProtectedRoute><PublishPostView /></ProtectedRoute>} />
       <Route path="/posts/:id" element={<ContentDetailView />} />
       <Route path="/shops/:id" element={<ShopView />} />

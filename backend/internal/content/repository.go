@@ -174,3 +174,31 @@ func (r *Repository) ImagesByPostIDs(ctx context.Context, postIDs []uint64) (map
 	}
 	return imagesByPost, nil
 }
+
+// TagsByPostIDs enriches a complete feed page with one ordered query, including
+// posts read from timeline/cache paths where GORM associations are not preloaded.
+func (r *Repository) TagsByPostIDs(ctx context.Context, postIDs []uint64) (map[uint64][]Tag, error) {
+	tagsByPost := make(map[uint64][]Tag, len(postIDs))
+	for _, postID := range postIDs {
+		tagsByPost[postID] = []Tag{}
+	}
+	if len(postIDs) == 0 {
+		return tagsByPost, nil
+	}
+	var rows []struct {
+		PostID uint64
+		ID     uint64
+		Name   string
+	}
+	if err := r.db.WithContext(ctx).Table("post_tags").
+		Select("post_tags.post_id, tags.id, tags.name").
+		Joins("JOIN tags ON tags.id = post_tags.tag_id").
+		Where("post_tags.post_id IN ?", postIDs).
+		Order("post_tags.post_id ASC, tags.name ASC, tags.id ASC").Scan(&rows).Error; err != nil {
+		return nil, fmt.Errorf("batch post tags: %w", err)
+	}
+	for _, row := range rows {
+		tagsByPost[row.PostID] = append(tagsByPost[row.PostID], Tag{ID: row.ID, Name: row.Name})
+	}
+	return tagsByPost, nil
+}

@@ -44,3 +44,16 @@ picture/
 scripts/
 README.md
 test/
+# Version the sourced demo catalog and its reproducible import tools.
+!scripts/
+scripts/*
+!scripts/collect_real_catalog.py
+!scripts/import_real_catalog.py
+!scripts/cleanup_mock_data.sql
+!scripts/seed_real_catalog.sh
+!data/
+data/*
+!data/real-catalog/
+data/real-catalog/*
+!data/real-catalog/catalog.json
+!data/real-catalog/README.md

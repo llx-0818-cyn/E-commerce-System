@@ -91,8 +91,8 @@ func TestFeedAssemblerBatchesOpenShopAndLimitedSellableProductCards(t *testing.T
 	if err != nil {
 		t.Fatalf("Assemble(commerce) error = %v", err)
 	}
-	if got := counter.Count(); got != 7 {
-		t.Fatalf("five-item commerce feed query count = %d, want 7 fixed queries", got)
+	if got := counter.Count(); got != 8 {
+		t.Fatalf("five-item commerce feed query count = %d, want 8 fixed queries", got)
 	}
 	openItem := findCommerceFeedItem(t, feedItems, openPost)
 	if openItem.Shop == nil || openItem.Shop.ID != openShop || openItem.Shop.Name != "作者一开放店" {
@@ -121,8 +121,8 @@ func TestFeedAssemblerBatchesOpenShopAndLimitedSellableProductCards(t *testing.T
 	if _, err := assembler.Assemble(ctx, onePost, 4); err != nil {
 		t.Fatalf("Assemble(one commerce) error = %v", err)
 	}
-	if got := counter.Count(); got != 7 {
-		t.Fatalf("one-item commerce feed query count = %d, want same fixed 7", got)
+	if got := counter.Count(); got != 8 {
+		t.Fatalf("one-item commerce feed query count = %d, want same fixed 8", got)
 	}
 }
 

@@ -74,6 +74,10 @@ func (a *FeedAssembler) Assemble(ctx context.Context, posts []content.Post, view
 	if err != nil {
 		return nil, err
 	}
+	tagsByPost, err := a.contents.TagsByPostIDs(ctx, postIDs)
+	if err != nil {
+		return nil, err
+	}
 	authors, err := a.accounts.FindByIDs(ctx, authorIDs)
 	if err != nil {
 		return nil, fmt.Errorf("batch feed authors: %w", err)
@@ -110,10 +114,6 @@ func (a *FeedAssembler) Assemble(ctx context.Context, posts []content.Post, view
 	items := make([]ContentFeedItem, 0, len(posts))
 	for _, post := range posts {
 		author := authorsByID[uint(post.AuthorID)]
-		tags := post.Tags
-		if tags == nil {
-			tags = []content.Tag{}
-		}
 		products := commerceBatch.ProductsByPost[post.ID]
 		if products == nil {
 			products = []storefront.FeedProductCard{}
@@ -126,7 +126,7 @@ func (a *FeedAssembler) Assemble(ctx context.Context, posts []content.Post, view
 			Title:          post.Title,
 			Body:           post.Body,
 			Images:         imagesByPost[post.ID],
-			Tags:           tags,
+			Tags:           tagsByPost[post.ID],
 			LikesCount:     post.LikesCount,
 			FavoritesCount: post.FavoritesCount,
 			CommentsCount:  post.CommentsCount,

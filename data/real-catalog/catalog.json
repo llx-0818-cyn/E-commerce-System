@@ -1,0 +1,1881 @@
+{
+  "collected_at": "2026-10-17T13:03:07.926609+00:00",
+  "notice": "商品资料与短评摘自公开页面；头像为示意照片，与原评价作者无关；笔记为编辑创作，非购买证明。",
+  "products": [
+    {
+      "code": "40503626",
+      "category": "杯壶日常",
+      "theme": "给每天留一杯的时间",
+      "name": "GLADELIG Mug - blue 13 oz",
+      "subtitle": "blue",
+      "source_name": "GLADELIG Mug - blue 13 oz",
+      "material": "Ceramic",
+      "source_url": "https://www.ikea.com/us/en/p/gladelig-mug-blue-40503626/",
+      "review_source_url": "https://www.ikea.com/us/en/p/gladelig-mug-blue-40503626/",
+      "price_cent": 4200,
+      "source_price": 6.0,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.7,
+      "review_count": 1810,
+      "images": [
+        {
+          "url": "/media/catalog/40503626-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/gladelig-mug-blue__0986803_pe817327_s5.jpg",
+          "byte_size": 81179
+        },
+        {
+          "url": "/media/catalog/40503626-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/gladelig-mug-blue__1439873_pe985552_s5.jpg",
+          "byte_size": 59775
+        },
+        {
+          "url": "/media/catalog/40503626-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/gladelig-mug-blue__1439695_pe985418_s5.jpg",
+          "byte_size": 75137
+        },
+        {
+          "url": "/media/catalog/40503626-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/gladelig-mug-blue__1439843_pe985533_s5.jpg",
+          "byte_size": 66337
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Phyllis",
+          "text": "Good mug~!",
+          "rating": 5,
+          "date": "2026-06-27",
+          "source_url": "https://www.ikea.com/us/en/p/gladelig-mug-blue-40503626/"
+        },
+        {
+          "author": "Victoria",
+          "text": "Beautiful mug, good quality",
+          "rating": 5,
+          "date": "2026-07-18",
+          "source_url": "https://www.ikea.com/us/en/p/gladelig-mug-blue-40503626/"
+        },
+        {
+          "author": "Julia",
+          "text": "Love this for my coffee.",
+          "rating": 5,
+          "date": "2026-04-08",
+          "source_url": "https://www.ikea.com/us/en/p/gladelig-mug-blue-40503626/"
+        }
+      ]
+    },
+    {
+      "code": "50603687",
+      "category": "杯壶日常",
+      "theme": "给每天留一杯的时间",
+      "name": "TOBISFISK Mug - patterned/beige 17 oz",
+      "subtitle": "beige, multicolor",
+      "source_name": "TOBISFISK Mug - patterned/beige 17 oz",
+      "material": "Ceramic",
+      "source_url": "https://www.ikea.com/us/en/p/tobisfisk-mug-patterned-beige-50603687/",
+      "review_source_url": "https://www.ikea.com/us/en/p/tobisfisk-mug-patterned-beige-50603687/",
+      "price_cent": 3500,
+      "source_price": 5.0,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.8,
+      "review_count": 230,
+      "images": [
+        {
+          "url": "/media/catalog/50603687-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/tobisfisk-mug-patterned-beige__1397586_pe967649_s5.jpg",
+          "byte_size": 32902
+        },
+        {
+          "url": "/media/catalog/50603687-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/tobisfisk-mug-patterned-beige__1458630_pe993094_s5.jpg",
+          "byte_size": 53072
+        },
+        {
+          "url": "/media/catalog/50603687-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/tobisfisk-mug-patterned-beige__1458632_pe993099_s5.jpg",
+          "byte_size": 44076
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Kamleshun",
+          "text": "Good",
+          "rating": 5,
+          "date": "2026-07-30",
+          "source_url": "https://www.ikea.com/us/en/p/tobisfisk-mug-patterned-beige-50603687/"
+        },
+        {
+          "author": "Johanna",
+          "text": "This is so cute, love it",
+          "rating": 5,
+          "date": "2026-04-18",
+          "source_url": "https://www.ikea.com/us/en/p/tobisfisk-mug-patterned-beige-50603687/"
+        },
+        {
+          "author": "Kerry",
+          "text": "Good quality, good size, good price.",
+          "rating": 5,
+          "date": "2026-04-13",
+          "source_url": "https://www.ikea.com/us/en/p/tobisfisk-mug-patterned-beige-50603687/"
+        }
+      ]
+    },
+    {
+      "code": "60143992",
+      "category": "杯壶日常",
+      "theme": "给每天留一杯的时间",
+      "name": "FÄRGRIK Mug - stoneware white 8.5 oz",
+      "subtitle": "white",
+      "source_name": "FÄRGRIK Mug - stoneware white 8.5 oz",
+      "material": "Ceramic",
+      "source_url": "https://www.ikea.com/us/en/p/faergrik-mug-stoneware-white-60143992/",
+      "review_source_url": "https://www.ikea.com/us/en/p/faergrik-mug-stoneware-white-60143992/",
+      "price_cent": 1400,
+      "source_price": 2.0,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.7,
+      "review_count": 1630,
+      "images": [
+        {
+          "url": "/media/catalog/60143992-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/faergrik-mug-stoneware-white__0711067_pe727942_s5.jpg",
+          "byte_size": 11427
+        },
+        {
+          "url": "/media/catalog/60143992-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/faergrik-mug-stoneware-white__0900111_pe629275_s5.jpg",
+          "byte_size": 15900
+        },
+        {
+          "url": "/media/catalog/60143992-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/faergrik-mug-stoneware-white__0900101_pe609195_s5.jpg",
+          "byte_size": 10574
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Marcio",
+          "text": "Beautiful",
+          "rating": 5,
+          "date": "2026-10-04",
+          "source_url": "https://www.ikea.com/us/en/p/faergrik-mug-stoneware-white-60143992/"
+        },
+        {
+          "author": "Ammar",
+          "text": "👍🏻",
+          "rating": 5,
+          "date": "2024-06-23",
+          "source_url": "https://www.ikea.com/us/en/p/faergrik-mug-stoneware-white-60143992/"
+        },
+        {
+          "author": "Anonymous reviewer",
+          "text": "Good Quality",
+          "rating": 5,
+          "date": "2024-07-24",
+          "source_url": "https://www.ikea.com/us/en/p/faergrik-mug-stoneware-white-60143992/"
+        }
+      ]
+    },
+    {
+      "code": "80278367",
+      "category": "杯壶日常",
+      "theme": "给每天留一杯的时间",
+      "name": "IKEA 365+ Mug - white 12 oz",
+      "subtitle": "white",
+      "source_name": "IKEA 365+ Mug - white 12 oz",
+      "material": "Porcelain",
+      "source_url": "https://www.ikea.com/us/en/p/ikea-365-mug-white-80278367/",
+      "review_source_url": "https://www.ikea.com/us/en/p/ikea-365-mug-white-80278367/",
+      "price_cent": 3500,
+      "source_price": 5.0,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.7,
+      "review_count": 1170,
+      "images": [
+        {
+          "url": "/media/catalog/80278367-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-mug-white__0711130_pe727998_s5.jpg",
+          "byte_size": 12795
+        },
+        {
+          "url": "/media/catalog/80278367-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-mug-white__1386565_pe963864_s5.jpg",
+          "byte_size": 32603
+        },
+        {
+          "url": "/media/catalog/80278367-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-mug-white__1386564_pe963862_s5.jpg",
+          "byte_size": 55294
+        },
+        {
+          "url": "/media/catalog/80278367-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-mug-white__1386566_pe963863_s5.jpg",
+          "byte_size": 65331
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Haroution",
+          "text": "Excellent",
+          "rating": 5,
+          "date": "2025-06-15",
+          "source_url": "https://www.ikea.com/us/en/p/ikea-365-mug-white-80278367/"
+        },
+        {
+          "author": "Rafael",
+          "text": "great",
+          "rating": 5,
+          "date": "2024-01-01",
+          "source_url": "https://www.ikea.com/us/en/p/ikea-365-mug-white-80278367/"
+        },
+        {
+          "author": "Robert",
+          "text": "Well made mugs",
+          "rating": 5,
+          "date": "2023-08-27",
+          "source_url": "https://www.ikea.com/us/en/p/ikea-365-mug-white-80278367/"
+        }
+      ]
+    },
+    {
+      "code": "00404987",
+      "category": "氛围灯光",
+      "theme": "把普通的夜晚照亮",
+      "name": "DEJSA Table lamp - beige/opal glass 11 \"",
+      "subtitle": "beige, white",
+      "source_name": "DEJSA Table lamp - beige/opal glass 11 \"",
+      "material": "Metal, Glass",
+      "source_url": "https://www.ikea.com/us/en/p/dejsa-table-lamp-beige-opal-glass-00404987/",
+      "review_source_url": "https://www.ikea.com/us/en/p/dejsa-table-lamp-beige-opal-glass-00404987/",
+      "price_cent": 62993,
+      "source_price": 89.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.6,
+      "review_count": 476,
+      "images": [
+        {
+          "url": "/media/catalog/00404987-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/dejsa-table-lamp-beige-opal-glass__0967540_pe810183_s5.jpg",
+          "byte_size": 11119
+        },
+        {
+          "url": "/media/catalog/00404987-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/dejsa-table-lamp-beige-opal-glass__1371831_ph187947_s5.jpg",
+          "byte_size": 39370
+        },
+        {
+          "url": "/media/catalog/00404987-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/dejsa-table-lamp-beige-opal-glass__1056801_ph179827_s5.jpg",
+          "byte_size": 57154
+        },
+        {
+          "url": "/media/catalog/00404987-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/dejsa-table-lamp-beige-opal-glass__1056798_ph178506_s5.jpg",
+          "byte_size": 45796
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Maurice",
+          "text": "Right proportions",
+          "rating": 5,
+          "date": "2026-07-30",
+          "source_url": "https://www.ikea.com/us/en/p/dejsa-table-lamp-beige-opal-glass-00404987/"
+        },
+        {
+          "author": "Zorana",
+          "text": "This lamp was $49.90, what happened???",
+          "rating": 1,
+          "date": "2025-11-20",
+          "source_url": "https://www.ikea.com/us/en/p/dejsa-table-lamp-beige-opal-glass-00404987/"
+        },
+        {
+          "author": "Estelle",
+          "text": "so easy to broke and expensive and unsecured",
+          "rating": 1,
+          "date": "2026-08-02",
+          "source_url": "https://www.ikea.com/us/en/p/dejsa-table-lamp-beige-opal-glass-00404987/"
+        }
+      ]
+    },
+    {
+      "code": "60573576",
+      "category": "氛围灯光",
+      "theme": "把普通的夜晚照亮",
+      "name": "STORSEGEL Table lamp - ash/white",
+      "subtitle": "beige, white",
+      "source_name": "STORSEGEL Table lamp - ash/white",
+      "material": "Textile, Solid wood",
+      "source_url": "https://www.ikea.com/us/en/p/storsegel-table-lamp-ash-white-60573576/",
+      "review_source_url": "https://www.ikea.com/us/en/p/storsegel-table-lamp-ash-white-60573576/",
+      "price_cent": 13993,
+      "source_price": 19.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.8,
+      "review_count": 517,
+      "images": [
+        {
+          "url": "/media/catalog/60573576-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/storsegel-table-lamp-ash-white__1285773_pe933400_s5.jpg",
+          "byte_size": 22543
+        },
+        {
+          "url": "/media/catalog/60573576-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/storsegel-table-lamp-ash-white__1285772_pe933401_s5.jpg",
+          "byte_size": 44851
+        },
+        {
+          "url": "/media/catalog/60573576-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/storsegel-table-lamp-ash-white__1285771_pe933398_s5.jpg",
+          "byte_size": 38682
+        },
+        {
+          "url": "/media/catalog/60573576-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/storsegel-table-lamp-ash-white__1285774_pe933399_s5.jpg",
+          "byte_size": 59551
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Phatsany",
+          "text": "Love it",
+          "rating": 5,
+          "date": "2026-03-27",
+          "source_url": "https://www.ikea.com/us/en/p/storsegel-table-lamp-ash-white-60573576/"
+        },
+        {
+          "author": "Lauren",
+          "text": "Works really well!",
+          "rating": 5,
+          "date": "2026-04-07",
+          "source_url": "https://www.ikea.com/us/en/p/storsegel-table-lamp-ash-white-60573576/"
+        },
+        {
+          "author": "Deborah",
+          "text": "Love the little lamps",
+          "rating": 5,
+          "date": "2025-06-10",
+          "source_url": "https://www.ikea.com/us/en/p/storsegel-table-lamp-ash-white-60573576/"
+        }
+      ]
+    },
+    {
+      "code": "70096377",
+      "category": "氛围灯光",
+      "theme": "把普通的夜晚照亮",
+      "name": "FADO Table lamp - white 10 \"",
+      "subtitle": "white",
+      "source_name": "FADO Table lamp - white 10 \"",
+      "material": "Glass",
+      "source_url": "https://www.ikea.com/us/en/p/fado-table-lamp-white-70096377/",
+      "review_source_url": "https://www.ikea.com/us/en/p/fado-table-lamp-white-70096377/",
+      "price_cent": 20993,
+      "source_price": 29.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.5,
+      "review_count": 1029,
+      "images": [
+        {
+          "url": "/media/catalog/70096377-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/fado-table-lamp-white__0606976_pe682645_s5.jpg",
+          "byte_size": 6888
+        },
+        {
+          "url": "/media/catalog/70096377-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/fado-table-lamp-white__1158342_pe888106_s5.jpg",
+          "byte_size": 39403
+        },
+        {
+          "url": "/media/catalog/70096377-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/fado-table-lamp-white__1481772_pe1005760_s5.jpg",
+          "byte_size": 36704
+        },
+        {
+          "url": "/media/catalog/70096377-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/fado-table-lamp-white__0176843_pe267072_s5.jpg",
+          "byte_size": 28893
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Inae",
+          "text": "It’s butiful!",
+          "rating": 5,
+          "date": "2026-06-13",
+          "source_url": "https://www.ikea.com/us/en/p/fado-table-lamp-white-70096377/"
+        },
+        {
+          "author": "Naila",
+          "text": "Me encantó. Le doy todo los créditos !!",
+          "rating": 5,
+          "date": "2026-09-10",
+          "source_url": "https://www.ikea.com/us/en/p/fado-table-lamp-white-70096377/"
+        },
+        {
+          "author": "Mary",
+          "text": "Adds such a cool look to my otherwise boring desk!",
+          "rating": 5,
+          "date": "2026-05-25",
+          "source_url": "https://www.ikea.com/us/en/p/fado-table-lamp-white-70096377/"
+        }
+      ]
+    },
+    {
+      "code": "80321380",
+      "category": "氛围灯光",
+      "theme": "把普通的夜晚照亮",
+      "name": "ÅRSTID Table lamp - brass/white",
+      "subtitle": "yellow, white",
+      "source_name": "ÅRSTID Table lamp - brass/white",
+      "material": "Metal, Textile",
+      "source_url": "https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/",
+      "review_source_url": "https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/",
+      "price_cent": 27993,
+      "source_price": 39.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.8,
+      "review_count": 1757,
+      "images": [
+        {
+          "url": "/media/catalog/80321380-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/arstid-table-lamp-brass-white__0609329_pe684454_s5.jpg",
+          "byte_size": 14149
+        },
+        {
+          "url": "/media/catalog/80321380-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/arstid-table-lamp-brass-white__0880725_pe617347_s5.jpg",
+          "byte_size": 40361
+        },
+        {
+          "url": "/media/catalog/80321380-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/arstid-table-lamp-brass-white__0963368_ph170137_s5.jpg",
+          "byte_size": 75675
+        },
+        {
+          "url": "/media/catalog/80321380-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/arstid-table-lamp-brass-white__0579912_ph145270_s5.jpg",
+          "byte_size": 95427
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Kaitlyn",
+          "text": "So beautiful!",
+          "rating": 5,
+          "date": "2026-10-04",
+          "source_url": "https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/"
+        },
+        {
+          "author": "Brian",
+          "text": "Sleek design, sturdy base, excellent light.",
+          "rating": 5,
+          "date": "2025-08-12",
+          "source_url": "https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/"
+        },
+        {
+          "author": "Arthur",
+          "text": "Got 2 lamps, perfect fit for my bedroom",
+          "rating": 5,
+          "date": "2026-07-18",
+          "source_url": "https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/"
+        }
+      ]
+    },
+    {
+      "code": "10572206",
+      "category": "温暖织物",
+      "theme": "家的柔软时刻",
+      "name": "LAPPTÅG 拉普淘格 休闲毯",
+      "subtitle": "灰白 · 130x170 厘米",
+      "source_name": "LAPPTÅG Throw - off-white 51x67 \"",
+      "material": "",
+      "source_url": "https://www.ikea.cn/cn/zh/p/product-90572207/",
+      "review_source_url": "https://www.ikea.com/us/en/p/lapptag-throw-off-white-10572206/",
+      "price_cent": 29900,
+      "source_price": 299,
+      "source_currency": "CNY",
+      "price_note": "中国官网采集价",
+      "rating": 3.8,
+      "review_count": 133,
+      "images": [
+        {
+          "url": "/media/catalog/10572206-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/lapptag-throw-off-white__1249622_pe923392_s5.jpg",
+          "byte_size": 75846
+        },
+        {
+          "url": "/media/catalog/10572206-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/lapptag-throw-off-white__1270255_pe929270_s5.jpg",
+          "byte_size": 95750
+        },
+        {
+          "url": "/media/catalog/10572206-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/lapptag-throw-off-white__1270256_pe929269_s5.jpg",
+          "byte_size": 80683
+        },
+        {
+          "url": "/media/catalog/10572206-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/lapptag-throw-off-white__1249621_pe923393_s5.jpg",
+          "byte_size": 94995
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Carolina",
+          "text": "i loved it",
+          "rating": 5,
+          "date": "2024-11-21",
+          "source_url": "https://www.ikea.com/us/en/p/lapptag-throw-off-white-10572206/"
+        },
+        {
+          "author": "Anne",
+          "text": "It's great! And does not smell (!)",
+          "rating": 5,
+          "date": "2024-11-04",
+          "source_url": "https://www.ikea.com/us/en/p/lapptag-throw-off-white-10572206/"
+        },
+        {
+          "author": "Amy",
+          "text": "so warm & soft- THE perfect couch blanket!",
+          "rating": 5,
+          "date": "2025-06-19",
+          "source_url": "https://www.ikea.com/us/en/p/lapptag-throw-off-white-10572206/"
+        }
+      ]
+    },
+    {
+      "code": "20570928",
+      "category": "温暖织物",
+      "theme": "家的柔软时刻",
+      "name": "VALLKRASSING 瓦卡辛 休闲毯",
+      "subtitle": "灰白 · 150x200 厘米",
+      "source_name": "VALLKRASSING Throw - off-white 59x79 \"",
+      "material": "",
+      "source_url": "https://www.ikea.cn/cn/zh/p/product-40570927/",
+      "review_source_url": "https://www.ikea.com/us/en/p/vallkrassing-throw-off-white-20570928/",
+      "price_cent": 14900,
+      "source_price": 149,
+      "source_currency": "CNY",
+      "price_note": "中国官网采集价",
+      "rating": 4.7,
+      "review_count": 436,
+      "images": [
+        {
+          "url": "/media/catalog/20570928-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/vallkrassing-throw-off-white__1207651_pe908114_s5.jpg",
+          "byte_size": 59601
+        },
+        {
+          "url": "/media/catalog/20570928-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/vallkrassing-throw-off-white__1207649_pe908112_s5.jpg",
+          "byte_size": 104251
+        },
+        {
+          "url": "/media/catalog/20570928-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/vallkrassing-throw-off-white__1207650_pe908113_s5.jpg",
+          "byte_size": 71537
+        },
+        {
+          "url": "/media/catalog/20570928-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/vallkrassing-throw-off-white__1388690_pe964902_s5.jpg",
+          "byte_size": 61414
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Bin",
+          "text": "Good",
+          "rating": 4,
+          "date": "2026-09-22",
+          "source_url": "https://www.ikea.com/us/en/p/vallkrassing-throw-off-white-20570928/"
+        },
+        {
+          "author": "Mariusz",
+          "text": "Pure cotton",
+          "rating": 5,
+          "date": "2026-10-05",
+          "source_url": "https://www.ikea.com/us/en/p/vallkrassing-throw-off-white-20570928/"
+        },
+        {
+          "author": "Maira",
+          "text": "Perfect size. Used it to keep warm and for a photoshoot",
+          "rating": 5,
+          "date": "2026-10-11",
+          "source_url": "https://www.ikea.com/us/en/p/vallkrassing-throw-off-white-20570928/"
+        }
+      ]
+    },
+    {
+      "code": "20624592",
+      "category": "温暖织物",
+      "theme": "家的柔软时刻",
+      "name": "DAGGKÅPOR Throw - light beige 51x67 \"",
+      "subtitle": "beige",
+      "source_name": "DAGGKÅPOR Throw - light beige 51x67 \"",
+      "material": "",
+      "source_url": "https://www.ikea.com/us/en/p/daggkapor-throw-light-beige-20624592/",
+      "review_source_url": "https://www.ikea.com/us/en/p/daggkapor-throw-light-beige-20624592/",
+      "price_cent": 5593,
+      "source_price": 7.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.6,
+      "review_count": 306,
+      "images": [
+        {
+          "url": "/media/catalog/20624592-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/daggkapor-throw-light-beige__1502288_pe1007587_s5.jpg",
+          "byte_size": 58654
+        },
+        {
+          "url": "/media/catalog/20624592-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/daggkapor-throw-light-beige__1509722_pe1009827_s5.jpg",
+          "byte_size": 55983
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Trenee",
+          "text": "Love it",
+          "rating": 5,
+          "date": "2026-04-20",
+          "source_url": "https://www.ikea.com/us/en/p/daggkapor-throw-light-beige-20624592/"
+        },
+        {
+          "author": "Arlene",
+          "text": "Excellent for the price.",
+          "rating": 5,
+          "date": "2025-06-23",
+          "source_url": "https://www.ikea.com/us/en/p/daggkapor-throw-light-beige-20624592/"
+        },
+        {
+          "author": "Crystal",
+          "text": "A great price for a cute throw.",
+          "rating": 5,
+          "date": "2025-07-07",
+          "source_url": "https://www.ikea.com/us/en/p/daggkapor-throw-light-beige-20624592/"
+        }
+      ]
+    },
+    {
+      "code": "50633552",
+      "category": "温暖织物",
+      "theme": "家的柔软时刻",
+      "name": "KLIPPOXEL Throw - light blue 51x67 \"",
+      "subtitle": "blue",
+      "source_name": "KLIPPOXEL Throw - light blue 51x67 \"",
+      "material": "",
+      "source_url": "https://www.ikea.com/us/en/p/klippoxel-throw-light-blue-50633552/",
+      "review_source_url": "https://www.ikea.com/us/en/p/klippoxel-throw-light-blue-50633552/",
+      "price_cent": 20993,
+      "source_price": 29.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 3.8,
+      "review_count": 238,
+      "images": [
+        {
+          "url": "/media/catalog/50633552-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/klippoxel-throw-light-blue__1563752_pe1026377_s5.jpg",
+          "byte_size": 71205
+        },
+        {
+          "url": "/media/catalog/50633552-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/klippoxel-throw-light-blue__1540036_pe1017716_s5.jpg",
+          "byte_size": 54537
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Lynn",
+          "text": "Snuggly and soft",
+          "rating": 5,
+          "date": "2026-02-06",
+          "source_url": "https://www.ikea.com/us/en/p/klippoxel-throw-light-blue-50633552/"
+        },
+        {
+          "author": "Tetiana",
+          "text": "It's warm, but it litters a lot",
+          "rating": 3,
+          "date": "2025-01-09",
+          "source_url": "https://www.ikea.com/us/en/p/klippoxel-throw-light-blue-50633552/"
+        },
+        {
+          "author": "Susan",
+          "text": "A lovely accent for my loveseat. It met my expectations.",
+          "rating": 4,
+          "date": "2025-02-12",
+          "source_url": "https://www.ikea.com/us/en/p/klippoxel-throw-light-blue-50633552/"
+        }
+      ]
+    },
+    {
+      "code": "00537652",
+      "category": "花器摆件",
+      "theme": "把喜欢的花带回家",
+      "name": "RÄFFELBJÖRK 拉弗比约 花瓶",
+      "subtitle": "珍珠母色 · 20 厘米",
+      "source_name": "RÄFFELBJÖRK Vase - mother-of-pearl color 7 ¾ \"",
+      "material": "Glass",
+      "source_url": "https://www.ikea.cn/cn/zh/p/product-00537671/",
+      "review_source_url": "https://www.ikea.com/us/en/p/raeffelbjoerk-vase-mother-of-pearl-color-00537652/",
+      "price_cent": 19900,
+      "source_price": 199,
+      "source_currency": "CNY",
+      "price_note": "中国官网采集价",
+      "rating": 4.8,
+      "review_count": 296,
+      "images": [
+        {
+          "url": "/media/catalog/00537652-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/raeffelbjoerk-vase-mother-of-pearl-color__1115553_pe872281_s5.jpg",
+          "byte_size": 69398
+        },
+        {
+          "url": "/media/catalog/00537652-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/raeffelbjoerk-vase-mother-of-pearl-color__1115550_pe872282_s5.jpg",
+          "byte_size": 55589
+        },
+        {
+          "url": "/media/catalog/00537652-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/raeffelbjoerk-vase-mother-of-pearl-color__1168200_pe891824_s5.jpg",
+          "byte_size": 66270
+        },
+        {
+          "url": "/media/catalog/00537652-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/raeffelbjoerk-vase-mother-of-pearl-color__1168227_pe891835_s5.jpg",
+          "byte_size": 58649
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Cherry",
+          "text": "A beautiful way to display water props!",
+          "rating": 5,
+          "date": "2024-05-13",
+          "source_url": "https://www.ikea.com/us/en/p/raeffelbjoerk-vase-mother-of-pearl-color-00537652/"
+        },
+        {
+          "author": "Sophia",
+          "text": "It's bonita and you can have two different arrangements.",
+          "rating": 5,
+          "date": "2026-03-09",
+          "source_url": "https://www.ikea.com/us/en/p/raeffelbjoerk-vase-mother-of-pearl-color-00537652/"
+        },
+        {
+          "author": "Julianna",
+          "text": "I love the simplicity and beauty of this vase.",
+          "rating": 5,
+          "date": "2024-12-01",
+          "source_url": "https://www.ikea.com/us/en/p/raeffelbjoerk-vase-mother-of-pearl-color-00537652/"
+        }
+      ]
+    },
+    {
+      "code": "10592365",
+      "category": "花器摆件",
+      "theme": "把喜欢的花带回家",
+      "name": "STILREN Vase - white 4 ¾ \"",
+      "subtitle": "white",
+      "source_name": "STILREN Vase - white 4 ¾ \"",
+      "material": "Ceramic",
+      "source_url": "https://www.ikea.com/us/en/p/stilren-vase-white-10592365/",
+      "review_source_url": "https://www.ikea.com/us/en/p/stilren-vase-white-10592365/",
+      "price_cent": 3493,
+      "source_price": 4.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.6,
+      "review_count": 100,
+      "images": [
+        {
+          "url": "/media/catalog/10592365-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/stilren-vase-white__1292624_pe935067_s5.jpg",
+          "byte_size": 16155
+        },
+        {
+          "url": "/media/catalog/10592365-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/stilren-vase-white__1375288_pe960225_s5.jpg",
+          "byte_size": 54992
+        },
+        {
+          "url": "/media/catalog/10592365-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/stilren-vase-white__1292623_pe935068_s5.jpg",
+          "byte_size": 31033
+        },
+        {
+          "url": "/media/catalog/10592365-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/stilren-vase-white__1375289_pe960224_s4.jpg",
+          "byte_size": 48399
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Lucia",
+          "text": "Love this item.",
+          "rating": 5,
+          "date": "2025-03-08",
+          "source_url": "https://www.ikea.com/us/en/p/stilren-vase-white-10592365/"
+        },
+        {
+          "author": "Leslie",
+          "text": "Love the size shape and color",
+          "rating": 5,
+          "date": "2025-01-19",
+          "source_url": "https://www.ikea.com/us/en/p/stilren-vase-white-10592365/"
+        },
+        {
+          "author": "Evelina",
+          "text": "Perfect for bud flowers. Fits on the picture shelves.",
+          "rating": 5,
+          "date": "2026-01-26",
+          "source_url": "https://www.ikea.com/us/en/p/stilren-vase-white-10592365/"
+        }
+      ]
+    },
+    {
+      "code": "30637725",
+      "category": "花器摆件",
+      "theme": "把喜欢的花带回家",
+      "name": "PÄRLHÄGG 派尔海格 花瓶",
+      "subtitle": "淡粉红色 · 14 厘米",
+      "source_name": "PÄRLHÄGG Vase - light pink 5 ½ \"",
+      "material": "Ceramic",
+      "source_url": "https://www.ikea.cn/cn/zh/p/product-10637726/",
+      "review_source_url": "https://www.ikea.com/us/en/p/paerlhaegg-vase-light-pink-30637725/",
+      "price_cent": 2999,
+      "source_price": 29.99,
+      "source_currency": "CNY",
+      "price_note": "中国官网采集价",
+      "rating": 4.7,
+      "review_count": 21,
+      "images": [
+        {
+          "url": "/media/catalog/30637725-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/paerlhaegg-vase-light-pink__1514346_pe1010998_s5.jpg",
+          "byte_size": 19931
+        },
+        {
+          "url": "/media/catalog/30637725-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/paerlhaegg-vase-light-pink__1514345_pe1010999_s5.jpg",
+          "byte_size": 24765
+        },
+        {
+          "url": "/media/catalog/30637725-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/paerlhaegg-vase-light-pink__1514344_pe1011000_s5.jpg",
+          "byte_size": 36378
+        },
+        {
+          "url": "/media/catalog/30637725-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/paerlhaegg-vase-light-pink__1514343_pe1010997_s5.jpg",
+          "byte_size": 41662
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Rebecca",
+          "text": "The vase is a nice light pink and comes in a shorter size.",
+          "rating": 5,
+          "date": "2026-06-15",
+          "source_url": "https://www.ikea.com/us/en/p/paerlhaegg-vase-light-pink-30637725/"
+        }
+      ]
+    },
+    {
+      "code": "50630577",
+      "category": "花器摆件",
+      "theme": "把喜欢的花带回家",
+      "name": "PÄRLHÄGG 派尔海格 花瓶",
+      "subtitle": "红褐色 · 22 厘米",
+      "source_name": "PÄRLHÄGG Vase - brown-red 8 ¾ \"",
+      "material": "Ceramic",
+      "source_url": "https://www.ikea.cn/cn/zh/p/product-30630578/",
+      "review_source_url": "https://www.ikea.com/us/en/p/paerlhaegg-vase-brown-red-50630577/",
+      "price_cent": 7999,
+      "source_price": 79.99,
+      "source_currency": "CNY",
+      "price_note": "中国官网采集价",
+      "rating": 4.8,
+      "review_count": 23,
+      "images": [
+        {
+          "url": "/media/catalog/50630577-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/paerlhaegg-vase-brown-red__1515346_pe1011375_s5.jpg",
+          "byte_size": 24464
+        },
+        {
+          "url": "/media/catalog/50630577-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/paerlhaegg-vase-brown-red__1529907_pe1014680_s5.jpg",
+          "byte_size": 88640
+        },
+        {
+          "url": "/media/catalog/50630577-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/paerlhaegg-vase-brown-red__1529904_pe1014679_s5.jpg",
+          "byte_size": 63362
+        },
+        {
+          "url": "/media/catalog/50630577-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/paerlhaegg-vase-brown-red__1382282_pe962243_s5.jpg",
+          "byte_size": 20209
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Karthik",
+          "text": "Such elegant piece",
+          "rating": 5,
+          "date": "2026-08-03",
+          "source_url": "https://www.ikea.com/us/en/p/paerlhaegg-vase-brown-red-50630577/"
+        },
+        {
+          "author": "Amanda",
+          "text": "Love this vase and it’s a great color!",
+          "rating": 5,
+          "date": "2026-09-09",
+          "source_url": "https://www.ikea.com/us/en/p/paerlhaegg-vase-brown-red-50630577/"
+        }
+      ]
+    },
+    {
+      "code": "20580324",
+      "category": "厨房收纳",
+      "theme": "厨房也有自己的秩序",
+      "name": "IKEA 365+ Food container - square/stainless steel 20 oz",
+      "subtitle": "gray",
+      "source_name": "IKEA 365+ Food container - square/stainless steel 20 oz",
+      "material": "Metal",
+      "source_url": "https://www.ikea.com/us/en/p/ikea-365-food-container-square-stainless-steel-20580324/",
+      "review_source_url": "https://www.ikea.com/us/en/p/ikea-365-food-container-square-stainless-steel-20580324/",
+      "price_cent": 3493,
+      "source_price": 4.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.7,
+      "review_count": 1248,
+      "images": [
+        {
+          "url": "/media/catalog/20580324-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-food-container-square-stainless-steel__1301430_pe937423_s5.jpg",
+          "byte_size": 15786
+        },
+        {
+          "url": "/media/catalog/20580324-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-food-container-square-stainless-steel__1301437_pe937432_s5.jpg",
+          "byte_size": 67775
+        },
+        {
+          "url": "/media/catalog/20580324-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-food-container-square-stainless-steel__1301436_pe937430_s5.jpg",
+          "byte_size": 53083
+        },
+        {
+          "url": "/media/catalog/20580324-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-food-container-square-stainless-steel__1339266_pe948426_s5.jpg",
+          "byte_size": 52613
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Stephanie",
+          "text": "I like it",
+          "rating": 5,
+          "date": "2024-06-02",
+          "source_url": "https://www.ikea.com/us/en/p/ikea-365-food-container-square-stainless-steel-20580324/"
+        },
+        {
+          "author": "Carolina",
+          "text": "New ice cream container",
+          "rating": 5,
+          "date": "2025-07-26",
+          "source_url": "https://www.ikea.com/us/en/p/ikea-365-food-container-square-stainless-steel-20580324/"
+        },
+        {
+          "author": "Dara",
+          "text": "Love it i cook with it all the time.  Cleans up great.",
+          "rating": 5,
+          "date": "2024-06-07",
+          "source_url": "https://www.ikea.com/us/en/p/ikea-365-food-container-square-stainless-steel-20580324/"
+        }
+      ]
+    },
+    {
+      "code": "20619406",
+      "category": "厨房收纳",
+      "theme": "厨房也有自己的秩序",
+      "name": "HAVSTOBIS Bento lunch box - clear/light green 24 oz",
+      "subtitle": "green",
+      "source_name": "HAVSTOBIS Bento lunch box - clear/light green 24 oz",
+      "material": "Glass, Plastic",
+      "source_url": "https://www.ikea.com/us/en/p/havstobis-bento-lunch-box-clear-light-green-20619406/",
+      "review_source_url": "https://www.ikea.com/us/en/p/havstobis-bento-lunch-box-clear-light-green-20619406/",
+      "price_cent": 3493,
+      "source_price": 4.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.0,
+      "review_count": 28,
+      "images": [
+        {
+          "url": "/media/catalog/20619406-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/havstobis-bento-lunch-box-clear-light-green__1481206_pe1000461_s5.jpg",
+          "byte_size": 21239
+        },
+        {
+          "url": "/media/catalog/20619406-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/havstobis-bento-lunch-box-clear-light-green__1481205_pe1000462_s5.jpg",
+          "byte_size": 24314
+        },
+        {
+          "url": "/media/catalog/20619406-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/havstobis-bento-lunch-box-clear-light-green__1496751_pe1005612_s5.jpg",
+          "byte_size": 73420
+        },
+        {
+          "url": "/media/catalog/20619406-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/havstobis-bento-lunch-box-clear-light-green__1496750_pe1005613_s5.jpg",
+          "byte_size": 82042
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Guadalupe",
+          "text": "Very good",
+          "rating": 5,
+          "date": "2026-07-28",
+          "source_url": "https://www.ikea.com/us/en/p/havstobis-bento-lunch-box-clear-light-green-20619406/"
+        },
+        {
+          "author": "Neelam",
+          "text": "Loved it!",
+          "rating": 5,
+          "date": "2026-05-05",
+          "source_url": "https://www.ikea.com/us/en/p/havstobis-bento-lunch-box-clear-light-green-20619406/"
+        },
+        {
+          "author": "Brian",
+          "text": "Another great iKea item!",
+          "rating": 5,
+          "date": "2026-07-26",
+          "source_url": "https://www.ikea.com/us/en/p/havstobis-bento-lunch-box-clear-light-green-20619406/"
+        }
+      ]
+    },
+    {
+      "code": "20625252",
+      "category": "厨房收纳",
+      "theme": "厨房也有自己的秩序",
+      "name": "IKEA 365+ Food container with lid - rectangular/glass 34 oz",
+      "subtitle": "blue, white",
+      "source_name": "IKEA 365+ Food container with lid - rectangular/glass 34 oz",
+      "material": "Glass, Plastic",
+      "source_url": "https://www.ikea.com/us/en/p/ikea-365-food-container-with-lid-rectangular-glass-20625252/",
+      "review_source_url": "https://www.ikea.com/us/en/p/ikea-365-food-container-with-lid-rectangular-glass-20625252/",
+      "price_cent": 12593,
+      "source_price": 17.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.9,
+      "review_count": 22,
+      "images": [
+        {
+          "url": "/media/catalog/20625252-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-food-container-with-lid-rectangular-glass__1446776_pe988680_s5.jpg",
+          "byte_size": 61205
+        },
+        {
+          "url": "/media/catalog/20625252-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-food-container-with-lid-rectangular-glass__1464316_pe994678_s5.jpg",
+          "byte_size": 65957
+        },
+        {
+          "url": "/media/catalog/20625252-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-food-container-with-lid-rectangular-glass__1501897_pe1007489_s5.jpg",
+          "byte_size": 72084
+        },
+        {
+          "url": "/media/catalog/20625252-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ikea-365-food-container-with-lid-rectangular-glass__1414201_pe974726_s5.jpg",
+          "byte_size": 71870
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Edvonia",
+          "text": "Great quality, good value.",
+          "rating": 5,
+          "date": "2026-04-24",
+          "source_url": "https://www.ikea.com/us/en/p/ikea-365-food-container-with-lid-rectangular-glass-20625252/"
+        },
+        {
+          "author": "Jennifer",
+          "text": "Love these storage bowls. Great size",
+          "rating": 5,
+          "date": "2026-05-25",
+          "source_url": "https://www.ikea.com/us/en/p/ikea-365-food-container-with-lid-rectangular-glass-20625252/"
+        }
+      ]
+    },
+    {
+      "code": "30586293",
+      "category": "厨房收纳",
+      "theme": "厨房也有自己的秩序",
+      "name": "SPLITTERNY 斯贝特尼 零食盒",
+      "subtitle": "透明/淡灰褐色 · 300 ml",
+      "source_name": "SPLITTERNY Snack container - clear/light gray-brown 10 oz",
+      "material": "Plastic",
+      "source_url": "https://www.ikea.cn/cn/zh/p/product-10586294/",
+      "review_source_url": "https://www.ikea.com/us/en/p/splitterny-snack-container-clear-light-gray-brown-30586293/",
+      "price_cent": 999,
+      "source_price": 9.99,
+      "source_currency": "CNY",
+      "price_note": "中国官网采集价",
+      "rating": 4.5,
+      "review_count": 171,
+      "images": [
+        {
+          "url": "/media/catalog/30586293-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/splitterny-snack-container-clear-light-gray-brown__1290062_pe934501_s5.jpg",
+          "byte_size": 15957
+        },
+        {
+          "url": "/media/catalog/30586293-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/splitterny-snack-container-clear-light-gray-brown__1290057_pe934499_s5.jpg",
+          "byte_size": 88162
+        },
+        {
+          "url": "/media/catalog/30586293-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/splitterny-snack-container-clear-light-gray-brown__1290059_pe934504_s5.jpg",
+          "byte_size": 42321
+        },
+        {
+          "url": "/media/catalog/30586293-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/splitterny-snack-container-clear-light-gray-brown__1290058_pe934500_s5.jpg",
+          "byte_size": 63230
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Angelica",
+          "text": "It’s small but it’s good",
+          "rating": 4,
+          "date": "2025-08-23",
+          "source_url": "https://www.ikea.com/us/en/p/splitterny-snack-container-clear-light-gray-brown-30586293/"
+        },
+        {
+          "author": "Iliana",
+          "text": "Cute and practical for your every day snack.",
+          "rating": 5,
+          "date": "2025-09-12",
+          "source_url": "https://www.ikea.com/us/en/p/splitterny-snack-container-clear-light-gray-brown-30586293/"
+        },
+        {
+          "author": "Grace",
+          "text": "This is the perfect container, honest and effective item!",
+          "rating": 5,
+          "date": "2026-04-20",
+          "source_url": "https://www.ikea.com/us/en/p/splitterny-snack-container-clear-light-gray-brown-30586293/"
+        }
+      ]
+    },
+    {
+      "code": "00485101",
+      "category": "桌面好物",
+      "theme": "整理一张舒服的书桌",
+      "name": "ELLOVEN Monitor stand with drawer - anthracite",
+      "subtitle": "beige, gray",
+      "source_name": "ELLOVEN Monitor stand with drawer - anthracite",
+      "material": "Metal, Bamboo",
+      "source_url": "https://www.ikea.com/us/en/p/elloven-monitor-stand-with-drawer-anthracite-00485101/",
+      "review_source_url": "https://www.ikea.com/us/en/p/elloven-monitor-stand-with-drawer-anthracite-00485101/",
+      "price_cent": 20993,
+      "source_price": 29.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.7,
+      "review_count": 4499,
+      "images": [
+        {
+          "url": "/media/catalog/00485101-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/elloven-monitor-stand-with-drawer-anthracite__0955983_pe804427_s5.jpg",
+          "byte_size": 12366
+        },
+        {
+          "url": "/media/catalog/00485101-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/elloven-monitor-stand-with-drawer-anthracite__1160257_pe888832_s5.jpg",
+          "byte_size": 65378
+        },
+        {
+          "url": "/media/catalog/00485101-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/elloven-monitor-stand-with-drawer-anthracite__0964054_pe808854_s5.jpg",
+          "byte_size": 62403
+        },
+        {
+          "url": "/media/catalog/00485101-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/elloven-monitor-stand-with-drawer-anthracite__0964059_pe808857_s5.jpg",
+          "byte_size": 71010
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Wei-Cheng",
+          "text": "Useful yet stylish",
+          "rating": 5,
+          "date": "2026-07-13",
+          "source_url": "https://www.ikea.com/us/en/p/elloven-monitor-stand-with-drawer-anthracite-00485101/"
+        },
+        {
+          "author": "Elena",
+          "text": "No assembly and the drawer works great!",
+          "rating": 5,
+          "date": "2026-08-21",
+          "source_url": "https://www.ikea.com/us/en/p/elloven-monitor-stand-with-drawer-anthracite-00485101/"
+        },
+        {
+          "author": "Raquel",
+          "text": "Looks Great and strong on my computer desktop",
+          "rating": 5,
+          "date": "2026-01-21",
+          "source_url": "https://www.ikea.com/us/en/p/elloven-monitor-stand-with-drawer-anthracite-00485101/"
+        }
+      ]
+    },
+    {
+      "code": "00636416",
+      "category": "桌面好物",
+      "theme": "整理一张舒服的书桌",
+      "name": "FÖRSÄSONG 福谢松 电线管理盘",
+      "subtitle": "红色 · 38 厘米",
+      "source_name": "FÖRSÄSONG Cable management tray - red 15 \"",
+      "material": "",
+      "source_url": "https://www.ikea.cn/cn/zh/p/product-40636424/",
+      "review_source_url": "https://www.ikea.com/us/en/p/foersaesong-cable-management-tray-red-00636416/",
+      "price_cent": 2999,
+      "source_price": 29.99,
+      "source_currency": "CNY",
+      "price_note": "中国官网采集价",
+      "rating": 4.3,
+      "review_count": 294,
+      "images": [
+        {
+          "url": "/media/catalog/00636416-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/foersaesong-cable-management-tray-red__1487131_pe1002696_s5.jpg",
+          "byte_size": 95604
+        },
+        {
+          "url": "/media/catalog/00636416-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/foersaesong-cable-management-tray-red__1536289_pe1016905_s5.jpg",
+          "byte_size": 74709
+        },
+        {
+          "url": "/media/catalog/00636416-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/foersaesong-cable-management-tray-red__1536288_pe1016906_s5.jpg",
+          "byte_size": 72428
+        },
+        {
+          "url": "/media/catalog/00636416-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/foersaesong-cable-management-tray-red__1487130_pe1002697_s5.jpg",
+          "byte_size": 65635
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Melodie",
+          "text": "free up culter",
+          "rating": 5,
+          "date": "2025-11-24",
+          "source_url": "https://www.ikea.com/us/en/p/foersaesong-cable-management-tray-red-00636416/"
+        },
+        {
+          "author": "Jessye",
+          "text": "Hides all my cabling under the desk perfectly",
+          "rating": 5,
+          "date": "2025-05-27",
+          "source_url": "https://www.ikea.com/us/en/p/foersaesong-cable-management-tray-red-00636416/"
+        },
+        {
+          "author": "Liliana",
+          "text": "Wish it came in black. Painted black after heavy sanding",
+          "rating": 3,
+          "date": "2026-04-16",
+          "source_url": "https://www.ikea.com/us/en/p/foersaesong-cable-management-tray-red-00636416/"
+        }
+      ]
+    },
+    {
+      "code": "10520892",
+      "category": "桌面好物",
+      "theme": "整理一张舒服的书桌",
+      "name": "PLÖJA Desk pad - white/clear 25 ½x17 ¾ \"",
+      "subtitle": "white",
+      "source_name": "PLÖJA Desk pad - white/clear 25 ½x17 ¾ \"",
+      "material": "Plastic",
+      "source_url": "https://www.ikea.com/us/en/p/ploeja-desk-pad-white-clear-10520892/",
+      "review_source_url": "https://www.ikea.com/us/en/p/ploeja-desk-pad-white-clear-10520892/",
+      "price_cent": 3493,
+      "source_price": 4.99,
+      "source_currency": "USD",
+      "price_note": "演示人民币价格，按美元采集价 × 7 设置，并非实时汇率",
+      "rating": 4.4,
+      "review_count": 683,
+      "images": [
+        {
+          "url": "/media/catalog/10520892-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ploeja-desk-pad-white-clear__1074653_pe856495_s5.jpg",
+          "byte_size": 4833
+        },
+        {
+          "url": "/media/catalog/10520892-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ploeja-desk-pad-white-clear__1075490_pe856497_s5.jpg",
+          "byte_size": 61492
+        },
+        {
+          "url": "/media/catalog/10520892-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/ploeja-desk-pad-white-clear__1075491_pe856496_s5.jpg",
+          "byte_size": 35671
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Ketayun",
+          "text": "I use these in the kitchen as a back-splash.",
+          "rating": 5,
+          "date": "2026-02-25",
+          "source_url": "https://www.ikea.com/us/en/p/ploeja-desk-pad-white-clear-10520892/"
+        },
+        {
+          "author": "Rik",
+          "text": "No padding- just a piece of plastic really cheap",
+          "rating": 1,
+          "date": "2025-04-19",
+          "source_url": "https://www.ikea.com/us/en/p/ploeja-desk-pad-white-clear-10520892/"
+        }
+      ]
+    },
+    {
+      "code": "20540494",
+      "category": "桌面好物",
+      "theme": "整理一张舒服的书桌",
+      "name": "RISATORP 瑞沙托 办公桌收纳件",
+      "subtitle": "白色 · 50x16x17 厘米",
+      "source_name": "RISATORP Desk organizer - white 19 ¾x6 ¼x6 ¾ \"",
+      "material": "",
+      "source_url": "https://www.ikea.cn/cn/zh/p/product-80542089/",
+      "review_source_url": "https://www.ikea.com/us/en/p/risatorp-desk-organizer-white-20540494/",
+      "price_cent": 9999,
+      "source_price": 99.99,
+      "source_currency": "CNY",
+      "price_note": "中国官网采集价",
+      "rating": 4.7,
+      "review_count": 247,
+      "images": [
+        {
+          "url": "/media/catalog/20540494-0.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/risatorp-desk-organizer-white__1149497_pe884044_s5.jpg",
+          "byte_size": 33355
+        },
+        {
+          "url": "/media/catalog/20540494-1.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/risatorp-desk-organizer-white__1150755_pe884685_s5.jpg",
+          "byte_size": 66265
+        },
+        {
+          "url": "/media/catalog/20540494-2.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/risatorp-desk-organizer-white__1150753_pe884684_s5.jpg",
+          "byte_size": 55407
+        },
+        {
+          "url": "/media/catalog/20540494-3.jpg",
+          "source_url": "https://www.ikea.com/us/en/images/products/risatorp-desk-organizer-white__1150754_pe884686_s5.jpg",
+          "byte_size": 64310
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Lizelle",
+          "text": "Great",
+          "rating": 5,
+          "date": "2023-03-15",
+          "source_url": "https://www.ikea.com/us/en/p/risatorp-desk-organizer-white-20540494/"
+        },
+        {
+          "author": "Ibrahim",
+          "text": "It looks great on the kitchen counter",
+          "rating": 5,
+          "date": "2023-09-06",
+          "source_url": "https://www.ikea.com/us/en/p/risatorp-desk-organizer-white-20540494/"
+        },
+        {
+          "author": "Elinor",
+          "text": "Lots of uses ; basket for fruit as a snack",
+          "rating": 5,
+          "date": "2026-04-03",
+          "source_url": "https://www.ikea.com/us/en/p/risatorp-desk-organizer-white-20540494/"
+        }
+      ]
+    }
+  ],
+  "portraits": [
+    {
+      "url": "/media/catalog/portrait-0.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/44.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-1.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/44.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-2.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/32.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-3.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/32.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-4.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/68.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-5.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/68.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-6.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/46.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-7.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/46.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-8.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/49.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-9.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/49.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-10.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/12.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-11.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/12.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-12.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/65.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-13.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/65.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-14.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/33.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-15.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/33.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-16.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/24.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-17.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/24.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-18.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/76.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-19.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/76.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-20.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/79.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-21.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/79.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-22.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/51.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-23.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/51.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-24.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/21.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-25.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/21.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-26.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/15.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-27.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/15.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-28.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/5.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-29.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/5.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-30.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/22.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-31.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/22.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-32.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/0.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-33.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/0.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-34.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/1.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-35.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/1.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-36.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/2.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-37.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/2.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-38.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/3.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-39.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/3.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-40.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/4.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-41.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/4.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-42.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/6.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-43.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/6.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-44.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/7.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-45.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/7.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-46.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/8.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-47.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/8.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-48.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/9.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-49.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/9.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-50.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/10.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-51.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/10.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-52.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/11.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-53.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/11.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-54.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/13.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-55.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/13.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-56.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/14.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-57.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/14.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-58.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/16.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-59.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/16.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-60.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/17.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-61.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/17.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-62.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/18.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-63.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/18.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-64.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/19.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-65.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/19.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-66.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/20.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-67.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/20.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-68.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/23.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-69.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/23.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-70.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/25.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-71.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/25.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-72.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/26.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-73.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/26.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-74.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/27.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-75.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/27.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-76.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/28.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-77.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/28.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-78.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/29.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-79.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/29.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-80.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/30.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-81.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/30.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-82.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/31.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-83.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/31.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-84.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/34.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-85.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/34.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-86.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/35.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-87.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/35.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-88.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/36.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-89.jpg",
+      "source_url": "https://randomuser.me/api/portraits/men/36.jpg",
+      "illustrative": true
+    },
+    {
+      "url": "/media/catalog/portrait-90.jpg",
+      "source_url": "https://randomuser.me/api/portraits/women/37.jpg",
+      "illustrative": true
+    }
+  ]
+}

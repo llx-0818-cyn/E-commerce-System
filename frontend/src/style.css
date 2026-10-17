@@ -11,7 +11,7 @@ h1, h2, h3, p, a, button, label { overflow-wrap: anywhere; }
 
 :focus-visible { outline: 3px solid rgba(37, 99, 165, 0.28); outline-offset: 2px; }
 
-.container { width: min(1180px, 100%); margin: 0 auto; padding: var(--space-6) var(--space-5) var(--space-10); }
+.container { width: min(1560px, 100%); margin: 0 auto; padding: 32px 38px 56px; }
 .grid { display: grid; gap: var(--space-4); }
 .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -43,3 +43,9 @@ button:disabled { cursor: not-allowed; opacity: 0.5; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
+
+::selection { background: #ffdce0; }
+input::placeholder, textarea::placeholder { color: #aaa39b; }
+h1, h2, h3 { letter-spacing: -.035em; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:active:not(:disabled) { transform: translateY(1px); }

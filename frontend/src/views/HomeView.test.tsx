@@ -39,6 +39,19 @@ describe('HomeView', () => {
     expect(mocks.popular).toHaveBeenCalledTimes(1)
   })
 
+  it('filters the visible feed by category without losing the other items', async () => {
+    const cup = { ...item(11, '杯子的日常'), tags: [{ id: 1, name: '杯壶日常' }] }
+    const light = { ...item(12, '房间的小灯'), tags: [{ id: 2, name: '氛围灯光' }] }
+    mocks.latest.mockResolvedValue({ items: [cup, light], has_more: false })
+    renderView()
+    await screen.findByTestId('feed-item-11')
+    fireEvent.click(screen.getByRole('button', { name: '氛围灯光' }))
+    expect(screen.queryByTestId('feed-item-11')).toBeNull()
+    expect(screen.getByTestId('feed-item-12')).toBeTruthy()
+    fireEvent.click(screen.getByRole('button', { name: '为你精选' }))
+    expect(screen.getByTestId('feed-item-11')).toBeTruthy()
+  })
+
   it('loads the next page and removes duplicate ids', async () => {
     mocks.latest
       .mockResolvedValueOnce({ items: [item(1)], has_more: true, next_cursor: { published_at: '2026-08-24T12:00:00Z', id: 1 } })
